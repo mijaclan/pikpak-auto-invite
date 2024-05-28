@@ -1,4 +1,6 @@
-# =======1手动 2自动========
+# 1手动
+# 2自动
+
 # 邮箱
 email:
   mode: 2
@@ -6,7 +8,7 @@ email:
 # 邀请码
 invitationCode:
   mode: 2
-  value: ""
+  value: "45832635"
 
 # 验证码
 verificationCode:

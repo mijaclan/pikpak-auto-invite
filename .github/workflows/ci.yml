@@ -17,4 +17,10 @@ jobs:
         with:
           python-version: '3.8'
       - run: pip install -r requirements.txt
+        # 修改为12小时内随机执行
+      - name: Random sleep
+        run: |
+          SECONDS=$((RANDOM % 43200))
+          echo "Sleeping for $SECONDS seconds"
+          sleep $SECONDS
       - run: python pikpakAutoInvite.py
