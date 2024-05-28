@@ -1,0 +1,15 @@
+# 1手动
+# 2自动
+
+# 邮箱
+email:
+  mode: 2
+
+# 邀请码
+invitationCode:
+  mode: 2
+  value: "45832635"
+
+# 验证码
+verificationCode:
+  mode: 2
